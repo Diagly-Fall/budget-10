@@ -1,0 +1,21 @@
+.formulaire{
+
+    text-align: center;
+
+}
+.formulaire .revenu{
+color: green;
+}
+.formulaire .montant{
+color: green;
+
+}
+.formulaire label #titrevenu,#montantrevenu{
+
+    color: green;
+}
+.formulaire .btn-ajouter{
+color: white;
+background-color: green ;
+
+}

@@ -1,0 +1,46 @@
+
+.P1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .P2 {
+    margin-top: 20px;
+}
+
+.P2 p {
+    color: yellow;
+}
+
+  table {
+    border-collapse: collapse;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ table tr td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  table tr:first-child td {
+    background-color: green;
+    font-weight: bold;
+    color: white;
+  }
+  
+  table.budget {
+    background-color: white;
+  }
+  
+  table.depense {
+    background-color: white;
+  }
+  
+  table.solde {
+    background-color: white;
+  }
+    #titredepense{
+    color: green;
+
+   }

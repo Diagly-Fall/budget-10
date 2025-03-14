@@ -1,0 +1,14 @@
+
+.formulaire{
+
+    text-align: center;
+
+}
+.formulaire .depense, .montant{
+    color: green;
+}
+.formulaire .btn-ajouter{
+color: white;
+background-color: green ;
+
+}
