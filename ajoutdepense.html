@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="dep.css">
 </head>   
  <body>
-
-<h1>bienvenue dans la page des depenses</h1>
-              <div class="formulaire">
-                <label for="titredepense" class="depense">Titre du montant :</label> <hr>
+          <div>
+            <img src="logo.png" alt="">
+            <div class="formulaire">
+              <h2>Ajouter depense</h2>
+              <div class="form-group">
+                <label for="titredepense" class="form-label">Titre du montant :</label> <hr>
                 <input type="text" id="titredepense" placeholder="Entrez le titre du montant">
-                <hr>
-                <label for="montant" class="montant">Montant depense:</label> <hr>
-                <input type="number" id="montantDepense" placeholder="Entrez le montant de la dépens">
-                <hr>
-                <button class="btn-ajouter" onclick="ajouterLigne()">Ajouter Dépense</button>
               </div>
+              <div class="form-group">
+                <label for="montant" class="form-label">Montant depense:</label> 
+                <input type="number" id="montantDepense" placeholder="Entrez le montant de la dépens">
+              </div> 
+              <button class="btn-ajouter" onclick="ajouterLigne()" type="submit">Ajouter Dépense</button>
+            </div>   
+         </div>
+            
  </body>
  </html> 

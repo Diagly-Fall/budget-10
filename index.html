@@ -3,40 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="chemin/vers/font-awesome/css/all.min.css">
     <link rel="stylesheet" href="bud.css">
 </head>       
   <body>
+    <div>
+      <img src="logo.png" alt="">
+    </div>
 <div  class="P1">
-  <table class="budget">
-    <tr>
-      <td>budget</td>
-    </tr>
-    <tr>
-      <td>00FR</td>
-    </tr>
-   </table>
-   <table class="depense">
-    <tr>
-      <td>depense</td>
-    </tr>
-    <tr>
-      <td>00FR</td>
-    </tr>
-   </table>
-   <table class="solde">
-    <tr>
-      <td>solde</td>
-    </tr>
-    <tr>
-      <td>00FR</td>
-    </tr>
-    
-   </table>
-</div>
+  <div class="tab">
+    <h1>Budget</h1>
+    <h2>prixbudget</h2>
+  </div>
+  <div class="tab">
+      <h1>depense</h1>
+      <h2>prixdepense</h2>
+    </div>
+  <div class="tab">
+    <h1>solde</h1>
+    <h2>prixsolde</h2>
+  </div>
+</div> 
 <div class="P2">
     <p>LISTE DES DEPENSES</p>
-<table>
+<table class="tabdepense">
   <tr>
     <td>titre</td>
     <td>montant</td>
@@ -44,11 +34,12 @@
   </tr>
   <tr>
     <td>
-      <a href="../ajoutdepense.html">Ajoutdepense</a>
+      <a href="../ajoutdepense.html">Ajoutdepense</a> 
+      <i class="fa-solid fa-user"></i>
     </td>
   </tr>
-  </table>
-  <table>
+  </table> 
+  <table id="tabrevenu">
     <p>LISTE DES REVENUS</p>
   <tr>
     <td>titre</td>
@@ -58,14 +49,11 @@
   <tr>
     <td>
       <a href="../ajoutrevenu.html">Ajoutrevenu</a>
+      <i class="fa-solid fa-user"></i>
     </td>
   </tr>
   </table>
 </div>
-
-
-
-
 <script class="bud.js"></script>
   </body>    
   </html>  

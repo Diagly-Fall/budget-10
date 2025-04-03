@@ -1,14 +1,49 @@
 
-.formulaire{
+body{
 
-    text-align: center;
-
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0;
 }
-.formulaire .depense, .montant{
+div img{
+    position: relative;
+    margin-left: 30%;
+    margin-top: 12px;
+}
+    .formulaire{
+        padding-top: 50px;
+    }
+    .formulaire h2{
+        color: green;
+        text-align: center;
+    }
+.formulaire .form-group
+{
+    position: relative;
+margin-bottom: 20px;
+display: flex;
+flex-direction: column;
+}
+.formulaire .form-group .form-label
+{ position: relative;
+    top: 10px;
+    margin-bottom: 10px;
     color: green;
+    text-transform: uppercase;
 }
+.formulaire .form-group .form-input
+{  position: relative;
+    padding: 10px;
+    border: 1px solid  ;
+    border-radius: 5px;
+
+}
+
 .formulaire .btn-ajouter{
-color: white;
-background-color: green ;
+    position: relative;
+    width: 100%;
+    top: 10px;
+    color: white;
+    background-color: green ;
 
 }

@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="rev.css">
 </head>   
  <body>
-
-<h1>bienvenue dans la page des revenus</h1>
-<div class="formulaire">
-  <label for="titrevenu" class="revenu">Titre du montant :</label> <hr>
-  <input type="text" id="titrevenu" placeholder="Entrez le titre du montant">
-  <hr>
-  <label for="montant" class="montant">Montant depense:</label> <hr>
-  <input type="number" id="montantrevenu" placeholder="Entrez le montant du revenu">
-  <hr>
-  <button class="btn-ajouter" onclick="addline()">Ajouter Dépense</button>
+<div>
+  <img src="logo.png" alt="">
 </div>
+
+<div class="formulaire">
+  <h2>ajouter revenu</h2>
+  <div class="form-group">
+    <label for="titrevenu" class="form-label">Titre du montant :</label> <hr>
+    <input type="text" class="form-input" placeholder="Entrez le titre du montant">
+  </div>
+  <div class="form-group">
+    <label for="montant" class="form-label">Montant revenu:</label> <hr>
+    <input type="number" class="form-input" placeholder="Entrez le montant du revenu">
+  </div>
+  <button class="btn-ajouter" onclick="addline()">Ajouter revenu</button>
+</div>
+  <script class="bud.js"></script>
  </body>
  </html> 

@@ -1,21 +1,52 @@
+
+
+body{
+
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0;
+}
+div img{
+    position: relative;
+    margin-left: 30%;
+    margin-top: 12px;
+}
+
 .formulaire{
-
-    text-align: center;
-
+        padding-top: 50px;
+    }
+    .formulaire h2{
+        color: green ;
+        text-align: center;
+    }
+.formulaire .form-group
+{
+    position: relative;
+margin-bottom: 20px;
+display: flex;
+flex-direction: column;
 }
-.formulaire .revenu{
-color: green;
-}
-.formulaire .montant{
-color: green;
-
-}
-.formulaire label #titrevenu,#montantrevenu{
-
+.formulaire .form-group .form-label
+{ position: relative;
+    top: 10px;
+    margin-bottom: 10px;
     color: green;
+    text-transform: uppercase;
 }
+.formulaire .form-group .form-input
+{  position: relative;
+    top: 10px;
+    padding: 10px;
+    border: 1px solid  ;
+    border-radius: 5px;
+
+}
+
 .formulaire .btn-ajouter{
-color: white;
-background-color: green ;
+    position: relative;
+    top: 5px;
+    width: 100%;
+    color: white;
+    background-color: green ;
 
 }
